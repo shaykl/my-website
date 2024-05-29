@@ -1,0 +1,29 @@
+@import './variables.css';
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section {
+  height: calc(100vh - var(--header-height));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section.home {
+  background-color: var(--header-color);
+  color: antiquewhite;
+}
+
+.section.projects {
+  background-color: antiquewhite;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  margin: 0;
+}

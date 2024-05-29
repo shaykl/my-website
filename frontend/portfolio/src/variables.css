@@ -1,0 +1,9 @@
+:root {
+    --header-height: 45px;
+    --header-item-gap: 12px;
+    --border-radius: 4px;
+
+    /* COLORS */
+    --header-color: #222831;
+    --header-item-hover: #EEEEEE;
+}
